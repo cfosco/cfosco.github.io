@@ -43,9 +43,9 @@ header p {
 	align-self: center;
 	background: url('https://pbs.twimg.com/profile_images/572900217096138752/R2vF1AxJ.png') center center;
 	border-radius: 100%;
-	display: flex;
-	flex-direction: column;
 	justify-content: center;
+	height = 100px;
+	width = 100px;
 }
 
 .main-quote {
