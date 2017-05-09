@@ -46,8 +46,8 @@ header p {
     min-height: 800px;
       display: flex;
     align-items: center;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
-
+  /*  text-shadow: 0.25px 0.25px 0.25px #000000;
+*/
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -56,20 +56,42 @@ header p {
     background-size: cover;
 }
 
-.parallax h1 {
+#projectBanner {
 
-font-size: 80px
+  background-image: url("projects_banner.jpg");
+}
+
+.parallax h1 {
+      font-size: 80px
 
 }
 
 #BFC {
-	align-items: center;
-	align-self: center;
-	background: url('https://pbs.twimg.com/profile_images/572900217096138752/R2vF1AxJ.png') center center;
-	border-radius: 100%;
-	justify-content: center;
-	height = 100px;
-	width = 100px;
+
+}
+
+.project_container {
+
+  margin: 20px;
+  align-items: center;
+  align-self: center;
+  background: url('https://pbs.twimg.com/profile_images/572900217096138752/R2vF1AxJ.png') center center;
+  /*border-radius: 100%;*/
+  background-size: cover;
+  justify-content: center;
+
+}
+
+.project_container figcaption {
+
+  margin: 10px;
+  background-image: -webkit-linear-gradient(90deg,#f35626,#feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project_container:hover {
+  transform: translate3d(0,-10%,0);
 }
 
 .main-quote {
@@ -87,6 +109,21 @@ font-size: 30px;
 
 }
 
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
 
 
 .jumbotron h1 {
@@ -160,6 +197,9 @@ a.btn {
   color: #f35626;
   cursor: pointer;
   animation: hue 60s infinite linear;
+  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
