@@ -38,6 +38,30 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("dawn_wallpaper.jpg");
+
+    /* Set a specific height */
+    min-height: 800px;
+      display: flex;
+    align-items: center;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h1 {
+
+font-size: 80px
+
+}
+
 #BFC {
 	align-items: center;
 	align-self: center;
@@ -51,11 +75,18 @@ header p {
 .main-quote {
   display: flex;
   align-items: center;
+  background-color: #f99136;
+  min-height: 300px
+
+
 }
 
-#main-title {
-  color: #fff;
+.main-quote p {
+
+font-size: 30px;
+
 }
+
 
 
 .jumbotron h1 {
@@ -112,6 +143,39 @@ a.btn {
 	transition: box-shadow 1s ease;
 }
 
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.mainTitle {
+  color: #f35626;
+  cursor: pointer;
+  animation: hue 60s infinite linear;
+}
+
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
 footer {
   font-size: 12px;
   padding: 20px 0;
@@ -129,4 +193,47 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+
+.colorSwitch {
+  animation: colorSwitch 50s; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorSwitch 50s;
+}
+
+
+
+/*-----------------------------------*\
+  $ANIMATIONS
+\*-----------------------------------*/
+
+
+
+@keyframes colorSwitch
+{
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75%  {color: green;}
+  100% {color: red;}
+}
+
+@-webkit-keyframes colorSwitch /* Safari and Chrome - necessary duplicate */
+{
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75%  {color: green;}
+  100% {color: red;}
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
