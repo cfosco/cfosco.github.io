@@ -28,6 +28,12 @@ header p {
   margin: 0;
 }
 
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -73,6 +79,7 @@ header p {
 .project_container {
 
   margin: 20px;
+  border: 5px solid #F99;
   align-items: center;
   align-self: center;
   background: url('https://pbs.twimg.com/profile_images/572900217096138752/R2vF1AxJ.png') center center;
@@ -82,16 +89,62 @@ header p {
 
 }
 
+.project_overlay {
+      color: #fff;
+      opacity: 0;
+      display: block;
+      background: rgba(240,95,64,.9);
+      background-size: cover;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      transition: all .35s;
+
+}
+
+.project_overlay:hover {
+
+  -webkit-transition: opacity 0.35s;
+  opacity: 1;
+
+
+}
+
+
+.project_container figure:hover {
+
+  -webkit-transition: opacity 0.35s;
+  opacity: 0.5;
+
+
+}
+
+
+.project_container figure {
+  background-color: white;
+  background-size: cover;
+  -webkit-transition: opacity 0.35s;
+  opacity: 0;
+
+
+
+}
+
 .project_container figcaption {
 
   margin: 10px;
   background-image: -webkit-linear-gradient(90deg,#f35626,#feab3a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-transition: opacity 0.35s;
+  opacity:0;
 }
 
-.project_container:hover {
-  transform: translate3d(0,-10%,0);
+.project_container figcaption:hover {
+  -webkit-transition: opacity 0.35s;
+	opacity: 1;
 }
 
 .main-quote {
