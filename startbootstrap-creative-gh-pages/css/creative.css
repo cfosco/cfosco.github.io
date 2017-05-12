@@ -226,12 +226,16 @@ header .header-content .header-content-inner p {
 
 }
 
-#portfolio h1 {
+.portfolio-title {
+
+  margin: 50px;
+
+}
+
+.portfolio-title h1 {
 
   text-transform: uppercase;
-  margin: 50px;
   padding: 15px;
-  border : 2px solid;
   text-align: center;
 
 }
