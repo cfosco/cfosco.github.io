@@ -300,7 +300,7 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box:hover .portfolio-box-caption .portfolio-box-caption-content{
-  color: red;
+  color: grey;
   transition: color 1.35s;
 }
 .portfolio-box:focus {
@@ -450,4 +450,12 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+
+//Added Classes
+.img-portfolio {
+  display: block;
+  height: 100px;
+  width: 100px;
 }
