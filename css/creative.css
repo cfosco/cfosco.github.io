@@ -452,10 +452,30 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
-
-//Added Classes
+/*Added classes*/
 .img-portfolio {
   display: block;
-  height: 100px;
-  width: 100px;
 }
+
+.center-cropped {
+  width: 400px;
+  height: 400px;
+  object-fit: none;
+  object-position: center;
+  overflow: hidden;
+}
+
+/*
+.center-cropped img {
+  height: 100%;
+  min-width: 100%;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.center-cropped img.portrait {
+  width: 100%;
+  height: auto;
+}
+*/
