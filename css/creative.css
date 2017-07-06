@@ -155,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  /*background-image: url('../img/header.jpg');*/
   text-align: center;
   color: white;
 }
@@ -489,6 +489,14 @@ transition:
   /*object-fit: none;
   object-position: center;*/
   overflow: hidden;
+}
+
+#sketch-holder {
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: -100;
+
 }
 
 /*
