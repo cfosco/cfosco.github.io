@@ -1,5 +1,7 @@
-window.onload = function setup() {
-    var canvas = createCanvas(window.innerWidth, window.innerHeight);
+ function setup() {
+    // var canvas = createCanvas(window.innerWidth, window.innerHeight);
+    var canvas = createCanvas(600,600);
+
     canvas.parent("sketch-holder");
 
       background(0);
@@ -37,22 +39,16 @@ window.onload = function setup() {
 //
 // }
 
-window.onresize = function() {
-var w = window.innerWidth;
-var h = window.innerHeight;
-resizeCanvas(w,h,true);
-width = w;
-height = h;
+// window.onresize = function() {
+// var w = window.innerWidth;
+// var h = window.innerHeight;
+// resizeCanvas(w,h,true);
+// width = w;
+// height = h;
+//
+// };
 
-};
-
-
-/* Global variables */
-previousMouseX = 0;
-previousMouseY = 0;
-
-
-// TURTLE STUFF:
+// TURTLE STUFF
 var turtle1 ={};
 var turtle2 ={}; //turtle variables
 var step = 20; // how much the turtle moves with each 'F'

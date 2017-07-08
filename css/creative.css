@@ -492,11 +492,17 @@ transition:
 }
 
 #sketch-holder {
-  position: fixed;
-  top: 0;
-  left:0;
+  float:left;
+  /*top: 0;
+  left:0;*/
   z-index: -100;
+
+}
+
+#sketch-holder canvas {
+
   width: 100%;
+  height: auto;
 
 }
 
