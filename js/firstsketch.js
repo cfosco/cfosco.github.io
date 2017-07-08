@@ -6,9 +6,14 @@ window.onload = function setup() {
 
       stroke(255, 255, 255, 100);
 
-      // start the x and y position at lower-left corner
-      x = 0;
-      y = height-1;
+      // create turtles starting form middle, looking opposite ways
+      x1 = window.innerWidth/2;
+      y1 = window.innerHeight/2;
+      turtle1 = new Turtle(x1,y1,0);
+
+      x2 = window.innerWidth/2;
+      y2 = window.innerHeight/2;
+      turtle2 = new Turtle(x2,y2,180);
 
       // COMPUTE THE L-SYSTEM
       for (var i = 0; i < numloops; i++) {
@@ -35,11 +40,10 @@ window.onload = function setup() {
 window.onresize = function() {
 var w = window.innerWidth;
 var h = window.innerHeight;
-resizeCanvas(w,h);
+resizeCanvas(w,h,true);
 width = w;
 height = h;
 
-      background(0);
 };
 
 
@@ -49,8 +53,8 @@ previousMouseY = 0;
 
 
 // TURTLE STUFF:
-var x, y; // the current position of the turtle
-var currentangle = 0; // which way the turtle is pointing
+var turtle1 ={};
+var turtle2 ={}; //turtle variables
 var step = 20; // how much the turtle moves with each 'F'
 var angle = 90; // how much the turtle turns with a '-' or '+'
 
@@ -66,11 +70,9 @@ var whereinstring = 0; // where in the L-system are we?
 
 function draw() {
 
-    if (mouseIsPressed) {
-      step = mouseX % 100;
-    }
   // draw the current character in the string:
-  drawIt(thestring[whereinstring]);
+  drawIt(turtle1,thestring[whereinstring]);
+  drawIt(turtle2,thestring[whereinstring]);
 
   // increment the point for where we're reading the string.
   // wrap around at the end.
@@ -101,21 +103,20 @@ function lindenmayer(s) {
 }
 
 // this is a custom function that draws turtle commands
-function drawIt(k) {
-
+function drawIt(turtle, k) {
   if (k=='F') { // draw forward
     // polar to cartesian based on step and currentangle:
-    var x1 = x + step*cos(radians(currentangle));
-    var y1 = y + step*sin(radians(currentangle));
-    line(x, y, x1, y1); // connect the old and the new
+    var xaux = turtle.x + step*cos(radians(turtle.currentangle));
+    var yaux = turtle.y + step*sin(radians(turtle.currentangle));
+    line(turtle.x, turtle.y, xaux, yaux); // connect the old and the new
 
     // update the turtle's position:
-    x = x1;
-    y = y1;
+    turtle.x = xaux;
+    turtle.y = yaux;
   } else if (k == '+') {
-    currentangle += angle; // turn left
+    turtle.currentangle += angle; // turn left
   } else if (k == '-') {
-    currentangle -= angle; // turn right
+    turtle.currentangle -= angle; // turn right
   }
 
   // give me some random color values:
@@ -131,7 +132,25 @@ function drawIt(k) {
   radius += random(0, 15);
   radius = radius/3;
 
+      if (mouseIsPressed) {
+        radius = radius *2;
+      }
   // draw the stuff:
   fill(r, g, b, a);
-  ellipse(x, y, radius, radius);
+  ellipse(turtle.x, turtle.y, radius, radius);
 }
+
+// Turtle class
+function Turtle (x,y,startAngle) {
+  this.x = x;
+  this.y = y;
+  this.currentangle = startAngle;
+}
+//
+// Turtle.getX = function() {
+//   return this.x;
+// };
+//
+// Turtle.getY = function() {
+//   return this.y;
+// };
