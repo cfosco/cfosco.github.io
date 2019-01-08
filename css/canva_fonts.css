@@ -1,0 +1,1951 @@
+
+@font-face {
+font-family:"Aileron Thin";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-LightItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-LightItalic.otf") format("opentype");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Aileron Thin";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-Light.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-Light.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Aileron Thin";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-ThinItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-ThinItalic.otf") format("opentype");
+font-style: italic;}
+@font-face {
+font-family:"Aileron Thin";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-Thin.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-Thin.otf") format("opentype");
+}
+@font-face {
+font-family:"Aileron Regular";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-BoldItalic.otf") format("opentype");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Aileron Regular";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-Bold.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Aileron Regular";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-Italic.otf") format("opentype");
+font-style: italic;}
+@font-face {
+font-family:"Aileron Regular";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-Regular.otf") format("opentype");
+}
+@font-face {
+font-family:"Aileron Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-BlackItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-BlackItalic.otf") format("opentype");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Aileron Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-Black.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-Black.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Aileron Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-HeavyItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-HeavyItalic.otf") format("opentype");
+font-style: italic;}
+@font-face {
+font-family:"Aileron Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Aileron-Heavy.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aileron-Heavy.otf") format("opentype");
+}
+@font-face {
+font-family:"Aleo Light";
+src:url("https://static.canva.com/static/truetypefonts/Aleo-LightItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aleo-LightItalic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Aleo Light";
+src:url("https://static.canva.com/static/truetypefonts/Aleo-Light.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aleo-Light.woff") format("woff");
+}
+@font-face {
+font-family:"Aleo";
+src:url("https://static.canva.com/static/truetypefonts/Aleo-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aleo-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Aleo";
+src:url("https://static.canva.com/static/truetypefonts/Aleo-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aleo-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Aleo";
+src:url("https://static.canva.com/static/truetypefonts/Aleo-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aleo-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Aleo";
+src:url("https://static.canva.com/static/truetypefonts/Aleo-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Aleo-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Allerta Stencil";
+src:url("https://static.canva.com/static/truetypefonts/AllertaStencil-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AllertaStencil-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Antic";
+src:url("https://static.canva.com/static/truetypefonts/Antic-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Antic-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Aqua";
+src:url("https://static.canva.com/static/truetypefonts/aqua.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/aqua.woff") format("woff");
+}
+@font-face {
+font-family:"Arialle";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Arialle";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Arialle";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo.woff") format("woff");
+}
+@font-face {
+font-family:"Arialle";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Archivo Narrow";
+src:url("https://static.canva.com/static/truetypefonts/ArchivoNarrow-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ArchivoNarrow-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Archivo Narrow";
+src:url("https://static.canva.com/static/truetypefonts/ArchivoNarrow-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ArchivoNarrow-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Archivo Narrow";
+src:url("https://static.canva.com/static/truetypefonts/ArchivoNarrow-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ArchivoNarrow-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Archivo Narrow";
+src:url("https://static.canva.com/static/truetypefonts/ArchivoNarrow-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ArchivoNarrow-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Archivo Black";
+src:url("https://static.canva.com/static/truetypefonts/ArchivoBlack.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ArchivoBlack.woff") format("woff");
+}
+@font-face {
+font-family:"Code";
+src:url("https://static.canva.com/static/truetypefonts/CodeLight.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CodeLight.woff") format("woff");
+}
+@font-face {
+font-family:"Code";
+src:url("https://static.canva.com/static/truetypefonts/CodeBold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CodeBold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Carter One";
+src:url("https://static.canva.com/static/truetypefonts/CarterOne.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CarterOne.woff") format("woff");
+}
+@font-face {
+font-family:"Cooper Hewitt";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-Book.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CooperHewitt-Book.otf") format("opentype");
+}
+@font-face {
+font-family:"Cooper Hewitt";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-BookItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CooperHewitt-BookItalic.otf") format("opentype");
+font-style: italic;}
+@font-face {
+font-family:"Cooper Hewitt";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CooperHewitt-BoldItalic.otf") format("opentype");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Cooper Hewitt";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CooperHewitt-Bold.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Cooper Hewitt Thin";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-Thin.ttf") format("truetype");
+}
+@font-face {
+font-family:"Cooper Hewitt Thin";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-ThinItalic.ttf") format("truetype");
+font-style: italic;}
+@font-face {
+font-family:"Cooper Hewitt Thin";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-LightItalic.ttf") format("truetype");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Cooper Hewitt Thin";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-Light.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"Cooper Hewitt Heavy";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-Heavy.ttf") format("truetype");
+}
+@font-face {
+font-family:"Cooper Hewitt Heavy";
+src:url("https://static.canva.com/static/truetypefonts/CooperHewitt-HeavyItalic.ttf") format("truetype");
+font-style: italic;}
+@font-face {
+font-family:"Fredoka One";
+src:url("https://static.canva.com/static/truetypefonts/FredokaOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/FredokaOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Hammersmith One";
+src:url("https://static.canva.com/static/truetypefonts/HammersmithOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/HammersmithOne.woff") format("woff");
+}
+@font-face {
+font-family:"Helveticish";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Helveticish";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Helveticish";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo.woff") format("woff");
+}
+@font-face {
+font-family:"Helveticish";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Josefin Sans";
+src:url("https://static.canva.com/static/truetypefonts/JosefinSans-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JosefinSans.woff") format("woff");
+}
+@font-face {
+font-family:"Josefin Sans";
+src:url("https://static.canva.com/static/truetypefonts/JosefinSans-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JosefinSans-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Josefin Sans";
+src:url("https://static.canva.com/static/truetypefonts/JosefinSans-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JosefinSans-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Josefin Sans";
+src:url("https://static.canva.com/static/truetypefonts/JosefinSans-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JosefinSans-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Josefin Slab";
+src:url("https://static.canva.com/static/truetypefonts/JosefinSlab-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JosefinSlab.woff") format("woff");
+}
+@font-face {
+font-family:"Josefin Slab";
+src:url("https://static.canva.com/static/truetypefonts/JosefinSlab-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JosefinSlab-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Josefin Slab";
+src:url("https://static.canva.com/static/truetypefonts/JosefinSlab-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JosefinSlab-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Josefin Slab";
+src:url("https://static.canva.com/static/truetypefonts/JosefinSlab-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JosefinSlab-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Lato";
+src:url("https://static.canva.com/static/truetypefonts/Lato-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Lato";
+src:url("https://static.canva.com/static/truetypefonts/Lato-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Lato";
+src:url("https://static.canva.com/static/truetypefonts/Lato-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Lato";
+src:url("https://static.canva.com/static/truetypefonts/Lato-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Lato Hairline";
+src:url("https://static.canva.com/static/truetypefonts/Lato-ThinItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-ThinItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Lato Hairline";
+src:url("https://static.canva.com/static/truetypefonts/Lato-Thin.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-Thin.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Lato Hairline";
+src:url("https://static.canva.com/static/truetypefonts/Lato-HairlineItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-HairlineItalic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Lato Hairline";
+src:url("https://static.canva.com/static/truetypefonts/Lato-Hairline.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-Hairline.woff") format("woff");
+}
+@font-face {
+font-family:"Lato Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Lato-BlackItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-BlackItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Lato Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Lato-Black.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-Black.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Lato Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Lato-HeavyItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-HeavyItalic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Lato Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Lato-Heavy.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lato-Heavy.woff") format("woff");
+}
+@font-face {
+font-family:"League Gothic";
+src:url("https://static.canva.com/static/truetypefonts/LeagueGothic-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LeagueGothic-Regular.otf") format("opentype");
+}
+@font-face {
+font-family:"League Gothic";
+src:url("https://static.canva.com/static/truetypefonts/LeagueGothic-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LeagueGothic-Italic.otf") format("opentype");
+font-style: italic;}
+@font-face {
+font-family:"League Spartan";
+src:url("https://static.canva.com/static/truetypefonts/LeagueSpartan-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LeagueSpartan-Bold.woff") format("woff");
+}
+@font-face {
+font-family:"Limelight";
+src:url("https://static.canva.com/static/truetypefonts/Limelight-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Limelight.woff") format("woff");
+}
+@font-face {
+font-family:"Montserrat Hairline";
+src:url("https://static.canva.com/static/truetypefonts/Montserrat-Hairline.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Montserrat-Hairline.woff") format("woff");
+}
+@font-face {
+font-family:"Montserrat Light";
+src:url("https://static.canva.com/static/truetypefonts/Montserrat-Light.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Montserrat-Light.woff") format("woff");
+}
+@font-face {
+font-family:"Montserrat";
+src:url("https://static.canva.com/static/truetypefonts/Montserrat-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Montserrat-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Montserrat";
+src:url("https://static.canva.com/static/truetypefonts/Montserrat-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Montserrat-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Oswald";
+src:url("https://static.canva.com/static/truetypefonts/Oswald-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Oswald-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Oswald";
+src:url("https://static.canva.com/static/truetypefonts/Oswald-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Oswald-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Peace Sans";
+src:url("https://static.canva.com/static/truetypefonts/Peace-Sans.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Peace-Sans.woff") format("woff");
+}
+@font-face {
+font-family:"Pirou";
+src:url("https://static.canva.com/static/truetypefonts/Pirou-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Pirou-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"PT Sans";
+src:url("https://static.canva.com/static/truetypefonts/PT_Sans-Web-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PTSans-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"PT Sans";
+src:url("https://static.canva.com/static/truetypefonts/PT_Sans-Web-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PTSans-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"PT Sans";
+src:url("https://static.canva.com/static/truetypefonts/PT_Sans-Web-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PTSans-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"PT Sans";
+src:url("https://static.canva.com/static/truetypefonts/PT_Sans-Web-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PTSans-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Quicksand";
+src:url("https://static.canva.com/static/truetypefonts/Quicksand-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Quicksand-Bold.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Quicksand";
+src:url("https://static.canva.com/static/truetypefonts/Quicksand-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Quicksand-BoldItalic.otf") format("opentype");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Quicksand";
+src:url("https://static.canva.com/static/truetypefonts/Quicksand-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Quicksand-Italic.otf") format("opentype");
+font-style: italic;}
+@font-face {
+font-family:"Quicksand";
+src:url("https://static.canva.com/static/truetypefonts/Quicksand-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Quicksand-Regular.otf") format("opentype");
+}
+@font-face {
+font-family:"Noto Sans Devanagari";
+src:url("https://static.canva.com/static/truetypefonts/NotoSansDevanagari-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/NotoSansDevanagari-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Nunito Light";
+src:url("https://static.canva.com/static/truetypefonts/Nunito-Light.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Nunito-Light.woff") format("woff");
+}
+@font-face {
+font-family:"Nunito";
+src:url("https://static.canva.com/static/truetypefonts/Nunito-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Nunito-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Nunito";
+src:url("https://static.canva.com/static/truetypefonts/Nunito-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Nunito-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Norwester";
+src:url("https://static.canva.com/static/truetypefonts/Norwester.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Norwester.woff") format("woff");
+}
+@font-face {
+font-family:"Raleway";
+src:url("https://static.canva.com/static/truetypefonts/Raleway-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Raleway.woff") format("woff");
+}
+@font-face {
+font-family:"Raleway";
+src:url("https://static.canva.com/static/truetypefonts/Raleway-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Raleway-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Raleway Thin";
+src:url("https://static.canva.com/static/truetypefonts/Raleway-Thin.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Raleway-Thin.woff") format("woff");
+}
+@font-face {
+font-family:"Raleway Heavy";
+src:url("https://static.canva.com/static/truetypefonts/Raleway-Heavy.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Raleway-Heavy.woff") format("woff");
+}
+@font-face {
+font-family:"Roboto Condensed";
+src:url("https://static.canva.com/static/truetypefonts/RobotoCondensed-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/RobotoCondensed-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Roboto Condensed";
+src:url("https://static.canva.com/static/truetypefonts/RobotoCondensed-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/RobotoCondensed-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Roboto Condensed";
+src:url("https://static.canva.com/static/truetypefonts/RobotoCondensed-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/RobotoCondensed-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Roboto Condensed";
+src:url("https://static.canva.com/static/truetypefonts/RobotoCondensed-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/RobotoCondensed-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Rosario";
+src:url("https://static.canva.com/static/truetypefonts/Rosario-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Rosario-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Rosario";
+src:url("https://static.canva.com/static/truetypefonts/Rosario-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Rosario-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Rosario";
+src:url("https://static.canva.com/static/truetypefonts/Rosario-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Rosario-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Rosario";
+src:url("https://static.canva.com/static/truetypefonts/Rosario-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Rosario-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Rubik One";
+src:url("https://static.canva.com/static/truetypefonts/RubikOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Rubik-One.woff") format("woff");
+}
+@font-face {
+font-family:"Rubik Mono";
+src:url("https://static.canva.com/static/truetypefonts/RubikMonoOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Rubik-Mono-One.woff") format("woff");
+}
+@font-face {
+font-family:"Amaranth";
+src:url("https://static.canva.com/static/truetypefonts/Amaranth-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Amaranth-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Amaranth";
+src:url("https://static.canva.com/static/truetypefonts/Amaranth-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Amaranth.woff") format("woff");
+}
+@font-face {
+font-family:"Amaranth";
+src:url("https://static.canva.com/static/truetypefonts/Amaranth-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Amaranth-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Amaranth";
+src:url("https://static.canva.com/static/truetypefonts/Amaranth-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Amaranth-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Anton";
+src:url("https://static.canva.com/static/truetypefonts/Anton.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Anton.woff") format("woff");
+}
+@font-face {
+font-family:"Arimo";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Arimo";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Arimo";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo.woff") format("woff");
+}
+@font-face {
+font-family:"Arimo";
+src:url("https://static.canva.com/static/truetypefonts/Arimo-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arimo-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Crushed";
+src:url("https://static.canva.com/static/truetypefonts/Crushed.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Crushed-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Economica";
+src:url("https://static.canva.com/static/truetypefonts/Economica-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Economica-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Economica";
+src:url("https://static.canva.com/static/truetypefonts/Economica-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Economica-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Economica";
+src:url("https://static.canva.com/static/truetypefonts/Economica-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Economica-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Economica";
+src:url("https://static.canva.com/static/truetypefonts/Economica-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Economica-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Exo";
+src:url("https://static.canva.com/static/truetypefonts/Exo-2-700-italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Exo2-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Exo";
+src:url("https://static.canva.com/static/truetypefonts/Exo-2-regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Exo2-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Exo";
+src:url("https://static.canva.com/static/truetypefonts/Exo-2-italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Exo2-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Exo";
+src:url("https://static.canva.com/static/truetypefonts/Exo-2-700.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Exo2-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Exo Thin";
+src:url("https://static.canva.com/static/truetypefonts/Exo-2-100.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Exo2-Thin.woff") format("woff");
+}
+@font-face {
+font-family:"Exo Thin";
+src:url("https://static.canva.com/static/truetypefonts/Exo-2-100-italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Exo2-ThinItalic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Gruppo";
+src:url("https://static.canva.com/static/truetypefonts/Gruppo-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Gruppo.woff") format("woff");
+}
+@font-face {
+font-family:"Glacial Indifference";
+src:url("https://static.canva.com/static/truetypefonts/GlacialIndifference-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/GlacialIndifference-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Glacial Indifference";
+src:url("https://static.canva.com/static/truetypefonts/GlacialIndifference-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/GlacialIndifference-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Glacial Indifference";
+src:url("https://static.canva.com/static/truetypefonts/GlacialIndifference-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/GlacialIndifference-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Gidole";
+src:url("https://static.canva.com/static/truetypefonts/Gidole-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Gidole-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Julius Sans One";
+src:url("https://static.canva.com/static/truetypefonts/JuliusSansOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/JuliusSansOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Kite One";
+src:url("https://static.canva.com/static/truetypefonts/KiteOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/KiteOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Kollektif";
+src:url("https://static.canva.com/static/truetypefonts/Kollektif.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Kollektif.woff") format("woff");
+}
+@font-face {
+font-family:"Kollektif";
+src:url("https://static.canva.com/static/truetypefonts/Kollektif-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Kollektif-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Kollektif";
+src:url("https://static.canva.com/static/truetypefonts/Kollektif-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Kollektif-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Kollektif";
+src:url("https://static.canva.com/static/truetypefonts/Kollektif-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Kollektif-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Lilita One";
+src:url("https://static.canva.com/static/truetypefonts/LilitaOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LilitaOne.woff") format("woff");
+}
+@font-face {
+font-family:"Open Sans Light";
+src:url("https://static.canva.com/static/truetypefonts/OpenSans-LightItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OpenSans-LightItalic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Open Sans Light";
+src:url("https://static.canva.com/static/truetypefonts/OpenSans-Light.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OpenSans-Light.woff") format("woff");
+}
+@font-face {
+font-family:"Open Sans";
+src:url("https://static.canva.com/static/truetypefonts/OpenSans-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OpenSans-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Open Sans";
+src:url("https://static.canva.com/static/truetypefonts/OpenSans-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OpenSans-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Open Sans";
+src:url("https://static.canva.com/static/truetypefonts/OpenSans-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OpenSans-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Open Sans";
+src:url("https://static.canva.com/static/truetypefonts/OpenSans-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OpenSans.woff") format("woff");
+}
+@font-face {
+font-family:"Open Sans Extra Bold";
+src:url("https://static.canva.com/static/truetypefonts/OpenSans-ExtraBoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OpenSans-ExtraBoldItalic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Open Sans Extra Bold";
+src:url("https://static.canva.com/static/truetypefonts/OpenSans-ExtraBold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OpenSans-ExtraBold.woff") format("woff");
+}
+@font-face {
+font-family:"Racing Sans One";
+src:url("https://static.canva.com/static/truetypefonts/RacingSansOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/RacingSansOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Roboto";
+src:url("https://static.canva.com/static/truetypefonts/Roboto-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Roboto-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Roboto";
+src:url("https://static.canva.com/static/truetypefonts/Roboto-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Roboto-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Roboto";
+src:url("https://static.canva.com/static/truetypefonts/Roboto-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Roboto-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Roboto";
+src:url("https://static.canva.com/static/truetypefonts/Roboto-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Roboto-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Ubuntu";
+src:url("https://static.canva.com/static/truetypefonts/Ubuntu-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Ubuntu.woff") format("woff");
+}
+@font-face {
+font-family:"Ubuntu";
+src:url("https://static.canva.com/static/truetypefonts/Ubuntu-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Ubuntu-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Ubuntu";
+src:url("https://static.canva.com/static/truetypefonts/Ubuntu-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Ubuntu-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Ubuntu";
+src:url("https://static.canva.com/static/truetypefonts/Ubuntu-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Ubuntu-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Unity Display";
+src:url("https://static.canva.com/static/truetypefonts/UnityDisplay-Bold.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"Unity Display";
+src:url("https://static.canva.com/static/truetypefonts/UnityDisplay-Roman.ttf") format("truetype");
+}
+@font-face {
+font-family:"Unity Text";
+src:url("https://static.canva.com/static/truetypefonts/UnityText-Bold.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"Unity Text";
+src:url("https://static.canva.com/static/truetypefonts/UnityText-Roman.ttf") format("truetype");
+}
+@font-face {
+font-family:"Six Caps";
+src:url("https://static.canva.com/static/truetypefonts/SixCaps.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/SixCaps.woff") format("woff");
+}
+@font-face {
+font-family:"Sifonn";
+src:url("https://static.canva.com/static/truetypefonts/Sifonn-Basic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Sifonn-Basic.woff") format("woff");
+}
+@font-face {
+font-family:"Sifonn Outline";
+src:url("https://static.canva.com/static/truetypefonts/Sifonn-Basic-Outline.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Sifonn-Basic-Outline.woff") format("woff");
+}
+@font-face {
+font-family:"Signika";
+src:url("https://static.canva.com/static/truetypefonts/Signika-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Signika-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Signika";
+src:url("https://static.canva.com/static/truetypefonts/Signika-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Signika-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Source Sans Pro";
+src:url("https://static.canva.com/static/truetypefonts/SourceSansPro-BoldIt.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/SourceSansPro-BoldIt.otf.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Source Sans Pro";
+src:url("https://static.canva.com/static/truetypefonts/SourceSansPro-It.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/SourceSansPro-It.otf.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Source Sans Pro";
+src:url("https://static.canva.com/static/truetypefonts/SourceSansPro-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/SourceSansPro-Regular.otf.woff") format("woff");
+}
+@font-face {
+font-family:"Source Sans Pro";
+src:url("https://static.canva.com/static/truetypefonts/SourceSansPro-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/SourceSansPro-Bold.otf.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Text Me One";
+src:url("https://static.canva.com/static/truetypefonts/TextMeOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/TextMeOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Tenor Sans";
+src:url("https://static.canva.com/static/truetypefonts/TenorSans.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/TenorSans.woff") format("woff");
+}
+@font-face {
+font-family:"Abril Fatface";
+src:url("https://static.canva.com/static/truetypefonts/AbrilFatface-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AbrilFatface-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Alegreya SC";
+src:url("https://static.canva.com/static/truetypefonts/AlegreyaSC-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AlegreyaSC-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Alegreya SC";
+src:url("https://static.canva.com/static/truetypefonts/AlegreyaSC-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AlegreyaSC-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Alegreya SC";
+src:url("https://static.canva.com/static/truetypefonts/AlegreyaSC-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AlegreyaSC-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Alegreya SC";
+src:url("https://static.canva.com/static/truetypefonts/AlegreyaSC-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AlegreyaSC-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Alfa Slab One";
+src:url("https://static.canva.com/static/truetypefonts/AlfaSlabOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AlfaSlabOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Alike";
+src:url("https://static.canva.com/static/truetypefonts/Alike-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Alike-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Anonymous Pro";
+src:url("https://static.canva.com/static/truetypefonts/AnonymousPro-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AnonymousPro-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Anonymous Pro";
+src:url("https://static.canva.com/static/truetypefonts/AnonymousPro-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AnonymousPro.woff") format("woff");
+}
+@font-face {
+font-family:"Anonymous Pro";
+src:url("https://static.canva.com/static/truetypefonts/AnonymousPro-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AnonymousPro-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Anonymous Pro";
+src:url("https://static.canva.com/static/truetypefonts/AnonymousPro-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AnonymousPro-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Arvo";
+src:url("https://static.canva.com/static/truetypefonts/Arvo-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arvo-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Arvo";
+src:url("https://static.canva.com/static/truetypefonts/Arvo-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arvo.woff") format("woff");
+}
+@font-face {
+font-family:"Arvo";
+src:url("https://static.canva.com/static/truetypefonts/Arvo-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arvo-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Arvo";
+src:url("https://static.canva.com/static/truetypefonts/Arvo-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Arvo-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Bebas Neue";
+src:url("https://static.canva.com/static/truetypefonts/BebasNeueBold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/BebasNeueBold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Bebas Neue";
+src:url("https://static.canva.com/static/truetypefonts/BebasNeueRegular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/BebasNeueRegular.woff") format("woff");
+}
+@font-face {
+font-family:"Bodoni FLF";
+src:url("https://static.canva.com/static/truetypefonts/BodoniFLF-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/BodoniFLF-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Bodoni FLF";
+src:url("https://static.canva.com/static/truetypefonts/BodoniFLF-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/BodoniFLF-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Bodoni FLF";
+src:url("https://static.canva.com/static/truetypefonts/BodoniFLF-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/BodoniFLF-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Bodoni FLF";
+src:url("https://static.canva.com/static/truetypefonts/BodoniFLF-Roman.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/BodoniFLF-Roman.woff") format("woff");
+}
+@font-face {
+font-family:"Cinzel";
+src:url("https://static.canva.com/static/truetypefonts/Cinzel-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Cinzel-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Cinzel";
+src:url("https://static.canva.com/static/truetypefonts/Cinzel-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Cinzel-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Droid Serif";
+src:url("https://static.canva.com/static/truetypefonts/DroidSerif.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/DroidSerif.woff") format("woff");
+}
+@font-face {
+font-family:"Droid Serif";
+src:url("https://static.canva.com/static/truetypefonts/DroidSerif-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/DroidSerif-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Droid Serif";
+src:url("https://static.canva.com/static/truetypefonts/DroidSerif-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/DroidSerif-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Droid Serif";
+src:url("https://static.canva.com/static/truetypefonts/DroidSerif-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/DroidSerif-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Forum";
+src:url("https://static.canva.com/static/truetypefonts/Forum-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Forum-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Granaina";
+src:url("https://static.canva.com/static/truetypefonts/Granaina-Limpia.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Granaina-Limpia.woff") format("woff");
+}
+@font-face {
+font-family:"Glegoo";
+src:url("https://static.canva.com/static/truetypefonts/Glegoo-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Glegoo-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"IM Fell English SC";
+src:url("https://static.canva.com/static/truetypefonts/IMFeENsc28P.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/IM_FELL_English_SC.woff") format("woff");
+}
+@font-face {
+font-family:"IM Fell Double Pica";
+src:url("https://static.canva.com/static/truetypefonts/IMFeDPit28P.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/IM-Fell-Double-Pica-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"IM Fell Double Pica";
+src:url("https://static.canva.com/static/truetypefonts/IMFeDPrm28P.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/IM-Fell-Double-Pica-Roman.woff") format("woff");
+}
+@font-face {
+font-family:"Libre Baskerville";
+src:url("https://static.canva.com/static/truetypefonts/LibreBaskerville-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LibreBaskerville-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Libre Baskerville";
+src:url("https://static.canva.com/static/truetypefonts/LibreBaskerville-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LibreBaskerville-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Libre Baskerville";
+src:url("https://static.canva.com/static/truetypefonts/LibreBaskerville-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LibreBaskerville-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Lora";
+src:url("https://static.canva.com/static/truetypefonts/Lora-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lora-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Lora";
+src:url("https://static.canva.com/static/truetypefonts/Lora-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lora-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Lora";
+src:url("https://static.canva.com/static/truetypefonts/Lora-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lora.woff") format("woff");
+}
+@font-face {
+font-family:"Lora";
+src:url("https://static.canva.com/static/truetypefonts/Lora-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lora-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Lustria";
+src:url("https://static.canva.com/static/truetypefonts/Lustria-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lustria-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Luthier";
+src:url("https://static.canva.com/static/truetypefonts/Luthier-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Luthier-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Luthier";
+src:url("https://static.canva.com/static/truetypefonts/Luthier-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Luthier-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Luthier";
+src:url("https://static.canva.com/static/truetypefonts/Luthier-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Luthier-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Luthier";
+src:url("https://static.canva.com/static/truetypefonts/Luthier-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Luthier-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Nixie One";
+src:url("https://static.canva.com/static/truetypefonts/NixieOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/NixieOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Playfair Display";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplay-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplay-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Playfair Display";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplay-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplay-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Playfair Display";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplay-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplay-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Playfair Display";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplay-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplay-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Playfair Display Black";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplay-BlackItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplay-BlackItalic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Playfair Display Black";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplay-Black.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplay-Black.woff") format("woff");
+}
+@font-face {
+font-family:"Playfair Display SC";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplaySC-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplaySC-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Playfair Display SC";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplaySC-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplaySC-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Playfair Display SC";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplaySC-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplaySC-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Playfair Display SC";
+src:url("https://static.canva.com/static/truetypefonts/PlayfairDisplaySC-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PlayfairDisplaySC-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Prata";
+src:url("https://static.canva.com/static/truetypefonts/Prata-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Prata-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"PT Serif";
+src:url("https://static.canva.com/static/truetypefonts/PT_Serif-Web-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PTSerif-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"PT Serif";
+src:url("https://static.canva.com/static/truetypefonts/PT_Serif-Web-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PTSerif-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"PT Serif";
+src:url("https://static.canva.com/static/truetypefonts/PT_Serif-Web-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PTSerif-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"PT Serif";
+src:url("https://static.canva.com/static/truetypefonts/PT_Serif-Web-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PTSerif-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Quando";
+src:url("https://static.canva.com/static/truetypefonts/Quando-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Quando-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Quattrocento";
+src:url("https://static.canva.com/static/truetypefonts/Quattrocento-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Quattrocento.woff") format("woff");
+}
+@font-face {
+font-family:"Quattrocento";
+src:url("https://static.canva.com/static/truetypefonts/Quattrocento-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Quattrocento-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Sanchez";
+src:url("https://static.canva.com/static/truetypefonts/Sanchez-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Sanchez-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Sanchez";
+src:url("https://static.canva.com/static/truetypefonts/Sanchez-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Sanchez-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Source Serif Pro";
+src:url("https://static.canva.com/static/truetypefonts/SourceSerifPro-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/SourceSerifPro-Regular.otf.woff") format("woff");
+}
+@font-face {
+font-family:"Source Serif Pro";
+src:url("https://static.canva.com/static/truetypefonts/SourceSerifPro-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/SourceSerifPro-Bold.otf.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Old Standard";
+src:url("https://static.canva.com/static/truetypefonts/OldStandard-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OldStandardTT-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Old Standard";
+src:url("https://static.canva.com/static/truetypefonts/OldStandard-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OldStandardTT-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Old Standard";
+src:url("https://static.canva.com/static/truetypefonts/OldStandard-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OldStandardTT-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Times Neue Roman";
+src:url("https://static.canva.com/static/truetypefonts/texgyretermes-bolditalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/texgyretermes-bolditalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Times Neue Roman";
+src:url("https://static.canva.com/static/truetypefonts/texgyretermes-italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/texgyretermes-italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Times Neue Roman";
+src:url("https://static.canva.com/static/truetypefonts/texgyretermes-regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/texgyretermes-regular.woff") format("woff");
+}
+@font-face {
+font-family:"Times Neue Roman";
+src:url("https://static.canva.com/static/truetypefonts/texgyretermes-bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/texgyretermes-bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Trocchi";
+src:url("https://static.canva.com/static/truetypefonts/Trocchi-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Trocchi.woff") format("woff");
+}
+@font-face {
+font-family:"Ultra";
+src:url("https://static.canva.com/static/truetypefonts/Ultra.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Ultra.woff") format("woff");
+}
+@font-face {
+font-family:"Vidaloka";
+src:url("https://static.canva.com/static/truetypefonts/Vidaloka-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Vidaloka-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Voga";
+src:url("https://static.canva.com/static/truetypefonts/Voga-Medium.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Voga-Medium.woff") format("woff");
+}
+@font-face {
+font-family:"Vollkorn";
+src:url("https://static.canva.com/static/truetypefonts/Vollkorn-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Vollkorn-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Vollkorn";
+src:url("https://static.canva.com/static/truetypefonts/Vollkorn-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Vollkorn-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Vollkorn";
+src:url("https://static.canva.com/static/truetypefonts/Vollkorn-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Vollkorn-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Vollkorn";
+src:url("https://static.canva.com/static/truetypefonts/Vollkorn-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Vollkorn-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Cantora One";
+src:url("https://static.canva.com/static/truetypefonts/CantoraOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CantoraOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Coustard";
+src:url("https://static.canva.com/static/truetypefonts/Coustard-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Coustard.woff") format("woff");
+}
+@font-face {
+font-family:"Emilys Candy";
+src:url("https://static.canva.com/static/truetypefonts/EmilysCandy-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/EmilysCandy-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Glass Antiqua";
+src:url("https://static.canva.com/static/truetypefonts/GlassAntiqua-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/GlassAntiqua-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Graduate";
+src:url("https://static.canva.com/static/truetypefonts/Graduate-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Graduate-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Ribeye";
+src:url("https://static.canva.com/static/truetypefonts/Ribeye-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Ribeye-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Vast Shadow";
+src:url("https://static.canva.com/static/truetypefonts/VastShadow-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/VastShadow-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Gochi Hand";
+src:url("https://static.canva.com/static/truetypefonts/GochiHand-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/GochiHand-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Over The Rainbow";
+src:url("https://static.canva.com/static/truetypefonts/OvertheRainbow.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OvertheRainbow.woff") format("woff");
+}
+@font-face {
+font-family:"Permanent Marker";
+src:url("https://static.canva.com/static/truetypefonts/PermanentMarker.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PermanentMarker.woff") format("woff");
+}
+@font-face {
+font-family:"Sacramento";
+src:url("https://static.canva.com/static/truetypefonts/Sacramento-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Sacramento-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Schoolbell";
+src:url("https://static.canva.com/static/truetypefonts/Schoolbell.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Schoolbell.woff") format("woff");
+}
+@font-face {
+font-family:"Shadows Into Light Two";
+src:url("https://static.canva.com/static/truetypefonts/ShadowsIntoLight.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ShadowsIntoLightTwo-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Amatic SC";
+src:url("https://static.canva.com/static/truetypefonts/AmaticSC-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AmaticSC-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Amatic SC";
+src:url("https://static.canva.com/static/truetypefonts/AmaticSC-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/AmaticSC-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Architects Daughter";
+src:url("https://static.canva.com/static/truetypefonts/ArchitectsDaughter.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ArchitectsDaughter.woff") format("woff");
+}
+@font-face {
+font-family:"Cabin Sketch";
+src:url("https://static.canva.com/static/truetypefonts/CabinSketch-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CabinSketch-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Cabin Sketch";
+src:url("https://static.canva.com/static/truetypefonts/CabinSketch-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CabinSketch-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Coming Soon";
+src:url("https://static.canva.com/static/truetypefonts/ComingSoon.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ComingSoon.woff") format("woff");
+}
+@font-face {
+font-family:"Allura";
+src:url("https://static.canva.com/static/truetypefonts/Allura-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Allura-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Clicker Script";
+src:url("https://static.canva.com/static/truetypefonts/ClickerScript-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/ClickerScript-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Courgette";
+src:url("https://static.canva.com/static/truetypefonts/Courgette-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Courgette-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Dear Joe";
+src:url("https://static.canva.com/static/truetypefonts/DearJoe5.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/DearJoe5.woff") format("woff");
+}
+@font-face {
+font-family:"Engagement";
+src:url("https://static.canva.com/static/truetypefonts/Engagement-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Engagement-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Euphoria Script";
+src:url("https://static.canva.com/static/truetypefonts/EuphoriaScript-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/EuphoriaScript-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Great Vibes";
+src:url("https://static.canva.com/static/truetypefonts/GreatVibes-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/GreatVibes-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Kaushan Script";
+src:url("https://static.canva.com/static/truetypefonts/KaushanScript-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/KaushanScript-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Marta";
+src:url("https://static.canva.com/static/truetypefonts/Marta-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Marta-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Marta";
+src:url("https://static.canva.com/static/truetypefonts/Marta-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Marta-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Marta";
+src:url("https://static.canva.com/static/truetypefonts/Marta-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Marta-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Merriweather";
+src:url("https://static.canva.com/static/truetypefonts/Merriweather-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Merriweather.woff") format("woff");
+}
+@font-face {
+font-family:"Merriweather";
+src:url("https://static.canva.com/static/truetypefonts/Merriweather-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Merriweather-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Merriweather";
+src:url("https://static.canva.com/static/truetypefonts/Merriweather-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Merriweather-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Merriweather";
+src:url("https://static.canva.com/static/truetypefonts/Merriweather-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Merriweather-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Mr Dafoe";
+src:url("https://static.canva.com/static/truetypefonts/MrDafoe-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/MrDafoe-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Niconne";
+src:url("https://static.canva.com/static/truetypefonts/Niconne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Niconne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Parisienne";
+src:url("https://static.canva.com/static/truetypefonts/Parisienne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Parisienne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Pinyon Script";
+src:url("https://static.canva.com/static/truetypefonts/PinyonScript-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PinyonScript.woff") format("woff");
+}
+@font-face {
+font-family:"Dr Sugiyama";
+src:url("https://static.canva.com/static/truetypefonts/DrSugiyama-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/DrSugiyama-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Grand Hotel";
+src:url("https://static.canva.com/static/truetypefonts/GrandHotel-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/GrandHotel-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Knewave";
+src:url("https://static.canva.com/static/truetypefonts/Knewave-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Knewave-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Pacifico";
+src:url("https://static.canva.com/static/truetypefonts/Pacifico.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Pacifico-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Princess Sofia";
+src:url("https://static.canva.com/static/truetypefonts/PrincessSofia-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/PrincessSofia.woff") format("woff");
+}
+@font-face {
+font-family:"Satisfy";
+src:url("https://static.canva.com/static/truetypefonts/Satisfy-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Satisfy.woff") format("woff");
+}
+@font-face {
+font-family:"Streamster";
+src:url("https://static.canva.com/static/truetypefonts/Streamster.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Streamster.woff") format("woff");
+}
+@font-face {
+font-family:"Yellowtail";
+src:url("https://static.canva.com/static/truetypefonts/Yellowtail-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Yellowtail.woff") format("woff");
+}
+@font-face {
+font-family:"Berkshire Swash";
+src:url("https://static.canva.com/static/truetypefonts/BerkshireSwash-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/BerkshireSwash-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Black Ops One";
+src:url("https://static.canva.com/static/truetypefonts/BlackOpsOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/BlackOpsOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Chewy";
+src:url("https://static.canva.com/static/truetypefonts/Chewy.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Chewy.woff") format("woff");
+}
+@font-face {
+font-family:"Creepster";
+src:url("https://static.canva.com/static/truetypefonts/Creepster-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Creepster-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Diplomata SC";
+src:url("https://static.canva.com/static/truetypefonts/DiplomataSC-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/DiplomataSC-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Germania One";
+src:url("https://static.canva.com/static/truetypefonts/GermaniaOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/GermaniaOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Megrim";
+src:url("https://static.canva.com/static/truetypefonts/Megrim.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Megrim.woff") format("woff");
+}
+@font-face {
+font-family:"Rye";
+src:url("https://static.canva.com/static/truetypefonts/Rye-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Rye-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"UnifrakturMaguntia";
+src:url("https://static.canva.com/static/truetypefonts/UnifrakturMaguntia-Book.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/UnifrakturMaguntia.woff") format("woff");
+}
+@font-face {
+font-family:"Codystar";
+src:url("https://static.canva.com/static/truetypefonts/Codystar-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Codystar.woff") format("woff");
+}
+@font-face {
+font-family:"Crafty Girls";
+src:url("https://static.canva.com/static/truetypefonts/CraftyGirls.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/CraftyGirls.woff") format("woff");
+}
+@font-face {
+font-family:"Hitchcut";
+src:url("https://static.canva.com/static/truetypefonts/Hitchcut.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Hitchcut.woff") format("woff");
+}
+@font-face {
+font-family:"Lobster";
+src:url("https://static.canva.com/static/truetypefonts/Lobster.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Lobster.woff") format("woff");
+}
+@font-face {
+font-family:"Lobster Two";
+src:url("https://static.canva.com/static/truetypefonts/LobsterTwo-BoldItalic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LobsterTwo-BoldItalic.woff") format("woff");
+font-weight: bold;font-style: italic;}
+@font-face {
+font-family:"Lobster Two";
+src:url("https://static.canva.com/static/truetypefonts/LobsterTwo-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LobsterTwo-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Lobster Two";
+src:url("https://static.canva.com/static/truetypefonts/LobsterTwo-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LobsterTwo-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Lobster Two";
+src:url("https://static.canva.com/static/truetypefonts/LobsterTwo-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LobsterTwo-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Oleo Script";
+src:url("https://static.canva.com/static/truetypefonts/OleoScript-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OleoScript-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Oleo Script";
+src:url("https://static.canva.com/static/truetypefonts/OleoScript-Bold.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/OleoScript-Bold.woff") format("woff");
+font-weight: bold;}
+@font-face {
+font-family:"Londrina Shadow";
+src:url("https://static.canva.com/static/truetypefonts/LondrinaShadow-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LondrinaShadow-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Londrina Sketch";
+src:url("https://static.canva.com/static/truetypefonts/LondrinaSketch-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/LondrinaSketch-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Oregano";
+src:url("https://static.canva.com/static/truetypefonts/Oregano-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Oregano-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Oregano";
+src:url("https://static.canva.com/static/truetypefonts/Oregano-Italic.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Oregano-Italic.woff") format("woff");
+font-style: italic;}
+@font-face {
+font-family:"Sniglet";
+src:url("https://static.canva.com/static/truetypefonts/Sniglet-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Sniglet.woff") format("woff");
+}
+@font-face {
+font-family:"Special Elite";
+src:url("https://static.canva.com/static/truetypefonts/SpecialElite.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/SpecialElite-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Sunday";
+src:url("https://static.canva.com/static/truetypefonts/Sunday.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Sunday.woff") format("woff");
+}
+@font-face {
+font-family:"Vampiro One";
+src:url("https://static.canva.com/static/truetypefonts/VampiroOne-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/VampiroOne-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"VT323";
+src:url("https://static.canva.com/static/truetypefonts/VT323-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/VT323-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Waterlily";
+src:url("https://static.canva.com/static/truetypefonts/Waterlily.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Waterlily.woff") format("woff");
+}
+@font-face {
+font-family:"Brusher";
+src:url("https://static.canva.com/static/truetypefonts/Brusher-Regular.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Brusher-Regular.woff") format("woff");
+}
+@font-face {
+font-family:"Playlist Script";
+src:url("https://static.canva.com/static/truetypefonts/Playlist-Script.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Playlist-Script.woff") format("woff");
+}
+@font-face {
+font-family:"Selima";
+src:url("https://static.canva.com/static/truetypefonts/Selima.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Selima.woff") format("woff");
+}
+@font-face {
+font-family:"Sensei";
+src:url("https://static.canva.com/static/truetypefonts/Sensei-Medium.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Sensei-Medium.woff") format("woff");
+}
+@font-face {
+font-family:"Edo";
+src:url("https://static.canva.com/static/truetypefonts/Edo.ttf") format("truetype"),
+url("https://static.canva.com/static/webfonts/Edo.woff") format("woff");
+}
+@font-face {
+font-family:"M Plus Thin";
+src:url("https://static.canva.com/static/fonts/MPlusThin/mplus-1p-thin.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusThin/mplus-1p-thin.ttf") format("truetype");
+}
+@font-face {
+font-family:"M Plus Thin";
+src:url("https://static.canva.com/static/fonts/MPlusThin/mplus-1p-light.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusThin/mplus-1p-light.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"M Plus Regular";
+src:url("https://static.canva.com/static/fonts/MPlusRegular/mplus-1p-regular.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRegular/mplus-1p-regular.ttf") format("truetype");
+}
+@font-face {
+font-family:"M Plus Regular";
+src:url("https://static.canva.com/static/fonts/MPlusRegular/mplus-1p-medium.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRegular/mplus-1p-medium.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"M Plus Black";
+src:url("https://static.canva.com/static/fonts/MPlusBlack/mplus-1p-bold.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusBlack/mplus-1p-bold.ttf") format("truetype");
+}
+@font-face {
+font-family:"M Plus Black";
+src:url("https://static.canva.com/static/fonts/MPlusBlack/mplus-1p-black.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusBlack/mplus-1p-black.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"M Plus Heavy";
+src:url("https://static.canva.com/static/fonts/MPlusHeavy/mplus-1p-heavy.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusHeavy/mplus-1p-heavy.ttf") format("truetype");
+}
+@font-face {
+font-family:"Noto Sans Thin";
+src:url("https://static.canva.com/static/fonts/NotoSansThin/NotoSansJP-Thin.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NotoSansThin/NotoSansJP-Thin.otf") format("opentype");
+}
+@font-face {
+font-family:"Noto Sans Thin";
+src:url("https://static.canva.com/static/fonts/NotoSansThin/NotoSansJP-Light.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NotoSansThin/NotoSansJP-Light.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Noto Sans Light";
+src:url("https://static.canva.com/static/fonts/NotoSansLight/NotoSansJP-DemiLight.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NotoSansLight/NotoSansJP-DemiLight.otf") format("opentype");
+}
+@font-face {
+font-family:"Noto Sans Light";
+src:url("https://static.canva.com/static/fonts/NotoSansLight/NotoSansJP-Regular.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NotoSansLight/NotoSansJP-Regular.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Noto Sans Regular";
+src:url("https://static.canva.com/static/fonts/NotoSansRegular/NotoSansJP-Medium.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NotoSansRegular/NotoSansJP-Medium.otf") format("opentype");
+}
+@font-face {
+font-family:"Noto Sans Regular";
+src:url("https://static.canva.com/static/fonts/NotoSansRegular/NotoSansJP-Bold.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NotoSansRegular/NotoSansJP-Bold.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Noto Sans Black";
+src:url("https://static.canva.com/static/fonts/NotoSansBlack/NotoSansJP-Black.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NotoSansBlack/NotoSansJP-Black.otf") format("opentype");
+}
+@font-face {
+font-family:"Kodomo Rounded Gothic Light";
+src:url("https://static.canva.com/static/fonts/KodomoRoundedGothicLight/KodomoRounded-Light.woff") format("woff"),
+url("https://static.canva.com/static/fonts/KodomoRoundedGothicLight/KodomoRounded-Light.otf") format("opentype");
+}
+@font-face {
+font-family:"Kodomo Rounded Gothic Light";
+src:url("https://static.canva.com/static/fonts/KodomoRoundedGothicLight/KodomoRounded.woff") format("woff"),
+url("https://static.canva.com/static/fonts/KodomoRoundedGothicLight/KodomoRounded.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Bokutachi Gothic Regular";
+src:url("https://static.canva.com/static/fonts/BokutachiGothicRegular/BokutachinoGothic2Regular.woff") format("woff"),
+url("https://static.canva.com/static/fonts/BokutachiGothicRegular/Boku2-Regular.otf") format("opentype");
+}
+@font-face {
+font-family:"Bokutachi Gothic Regular";
+src:url("https://static.canva.com/static/fonts/BokutachiGothicRegular/BokutachinoGothic2Bold.woff") format("woff"),
+url("https://static.canva.com/static/fonts/BokutachiGothicRegular/Boku2-Bold.otf") format("opentype");
+font-weight: bold;}
+@font-face {
+font-family:"Yasashisa Gothic";
+src:url("https://static.canva.com/static/fonts/YasashisaGothic/YasashisaGothic.woff") format("woff"),
+url("https://static.canva.com/static/fonts/YasashisaGothic/YasashisaGothic.otf") format("opentype");
+}
+@font-face {
+font-family:"Logo Type Gothic";
+src:url("https://static.canva.com/static/fonts/LogoTypeGothic/07LogoTypeGothic7.woff") format("woff"),
+url("https://static.canva.com/static/fonts/LogoTypeGothic/07LogoTypeGothic7.ttf") format("truetype");
+}
+@font-face {
+font-family:"Genjyuu Gothic Thin";
+src:url("https://static.canva.com/static/fonts/GenjyuuGothicThin/GenJyuuGothic-ExtraLight.woff") format("woff"),
+url("https://static.canva.com/static/fonts/GenjyuuGothicThin/GenJyuuGothic-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+font-family:"Genjyuu Gothic Thin";
+src:url("https://static.canva.com/static/fonts/GenjyuuGothicThin/GenJyuuGothic-Light.woff") format("woff"),
+url("https://static.canva.com/static/fonts/GenjyuuGothicThin/GenJyuuGothic-Light.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"Genjyuu Gothic Light";
+src:url("https://static.canva.com/static/fonts/GenjyuuGothicLight/GenJyuuGothic-Normal.woff") format("woff"),
+url("https://static.canva.com/static/fonts/GenjyuuGothicLight/GenJyuuGothic-Normal.ttf") format("truetype");
+}
+@font-face {
+font-family:"Genjyuu Gothic Light";
+src:url("https://static.canva.com/static/fonts/GenjyuuGothicLight/GenJyuuGothic-Regular.woff") format("woff"),
+url("https://static.canva.com/static/fonts/GenjyuuGothicLight/GenJyuuGothic-Regular.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"Genjyuu Gothic Black";
+src:url("https://static.canva.com/static/fonts/GenjyuuGothicBlack/GenJyuuGothic-Medium.woff") format("woff"),
+url("https://static.canva.com/static/fonts/GenjyuuGothicBlack/GenJyuuGothic-Medium.ttf") format("truetype");
+}
+@font-face {
+font-family:"Genjyuu Gothic Black";
+src:url("https://static.canva.com/static/fonts/GenjyuuGothicBlack/GenJyuuGothic-Bold.woff") format("woff"),
+url("https://static.canva.com/static/fonts/GenjyuuGothicBlack/GenJyuuGothic-Bold.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"Genjyuu Gothic Heavy";
+src:url("https://static.canva.com/static/fonts/GenjyuuGothicHeavy/GenJyuuGothic-Heavy.woff") format("woff"),
+url("https://static.canva.com/static/fonts/GenjyuuGothicHeavy/GenJyuuGothic-Heavy.ttf") format("truetype");
+}
+@font-face {
+font-family:"M Plus Rounded Thin";
+src:url("https://static.canva.com/static/fonts/MPlusRoundedThin/rounded-mplus-1p-thin.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRoundedThin/rounded-mplus-1p-thin.ttf") format("truetype");
+}
+@font-face {
+font-family:"M Plus Rounded Thin";
+src:url("https://static.canva.com/static/fonts/MPlusRoundedThin/rounded-mplus-1p-light.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRoundedThin/rounded-mplus-1p-light.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"M Plus Rounded Regular";
+src:url("https://static.canva.com/static/fonts/MPlusRoundedRegular/rounded-mplus-1p-regular.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRoundedRegular/rounded-mplus-1p-regular.ttf") format("truetype");
+}
+@font-face {
+font-family:"M Plus Rounded Regular";
+src:url("https://static.canva.com/static/fonts/MPlusRoundedRegular/rounded-mplus-1p-medium.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRoundedRegular/rounded-mplus-1p-medium.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"M Plus Rounded Black";
+src:url("https://static.canva.com/static/fonts/MPlusRoundedBlack/rounded-mplus-1p-bold.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRoundedBlack/rounded-mplus-1p-bold.ttf") format("truetype");
+}
+@font-face {
+font-family:"M Plus Rounded Black";
+src:url("https://static.canva.com/static/fonts/MPlusRoundedBlack/rounded-mplus-1p-black.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRoundedBlack/rounded-mplus-1p-black.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"M Plus Rounded Heavy";
+src:url("https://static.canva.com/static/fonts/MPlusRoundedHeavy/rounded-mplus-1p-heavy.woff") format("woff"),
+url("https://static.canva.com/static/fonts/MPlusRoundedHeavy/rounded-mplus-1p-heavy.ttf") format("truetype");
+}
+@font-face {
+font-family:"Ipaex Mincho";
+src:url("https://static.canva.com/static/fonts/IpaexMincho/ipaexm.woff") format("woff"),
+url("https://static.canva.com/static/fonts/IpaexMincho/Ipaexm.ttf") format("truetype");
+}
+@font-face {
+font-family:"Aozora Mincho Regular";
+src:url("https://static.canva.com/static/fonts/AozoraMinchoRegular/AozoraMinchoRegular.woff") format("woff"),
+url("https://static.canva.com/static/fonts/AozoraMinchoRegular/AozoraMinchoRegular.ttf") format("truetype");
+}
+@font-face {
+font-family:"Aozora Mincho Regular";
+src:url("https://static.canva.com/static/fonts/AozoraMinchoRegular/AozoraMinchoMedium.woff") format("woff"),
+url("https://static.canva.com/static/fonts/AozoraMinchoRegular/AozoraMinchoMedium.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"Aozora Mincho Heavy";
+src:url("https://static.canva.com/static/fonts/AozoraMinchoHeavy/AozoraMincho-bold.woff") format("woff"),
+url("https://static.canva.com/static/fonts/AozoraMinchoHeavy/AozoraMincho-bold.ttf") format("truetype");
+}
+@font-face {
+font-family:"Aozora Mincho Heavy";
+src:url("https://static.canva.com/static/fonts/AozoraMinchoHeavy/AozoraMinchoHeavy.woff") format("woff"),
+url("https://static.canva.com/static/fonts/AozoraMinchoHeavy/AozoraMinchoHeavy.ttf") format("truetype");
+font-weight: bold;}
+@font-face {
+font-family:"Kokoro Minchoutai";
+src:url("https://static.canva.com/static/fonts/KokoroMinchoutai/Kokoro.woff") format("woff"),
+url("https://static.canva.com/static/fonts/KokoroMinchoutai/Kokoro.otf") format("opentype");
+}
+@font-face {
+font-family:"Hannari Mincho";
+src:url("https://static.canva.com/static/fonts/HannariMincho/HannariMincho.woff") format("woff"),
+url("https://static.canva.com/static/fonts/HannariMincho/Hannari.otf") format("opentype");
+}
+@font-face {
+font-family:"Yasashisa Antique";
+src:url("https://static.canva.com/static/fonts/YasashisaAntique/07YasashisaAntique.woff") format("woff"),
+url("https://static.canva.com/static/fonts/YasashisaAntique/07YasashisaAntique.otf") format("opentype");
+}
+@font-face {
+font-family:"Dejima Mincho";
+src:url("https://static.canva.com/static/fonts/DejimaMincho/dejima-mincho-r227.woff") format("woff"),
+url("https://static.canva.com/static/fonts/DejimaMincho/dejima-mincho-r227.ttf") format("truetype");
+}
+@font-face {
+font-family:"Koku Maru Mincho";
+src:url("https://static.canva.com/static/fonts/KokuMaruMincho/KokuMaruMinchoKana-Regular.woff") format("woff"),
+url("https://static.canva.com/static/fonts/KokuMaruMincho/KokuMaruMinchoKana-Regular.otf") format("opentype");
+}
+@font-face {
+font-family:"Koku Mincho Regular";
+src:url("https://static.canva.com/static/fonts/KokuMinchoRegular/font_1_kokumr_1.00_rls.woff") format("woff"),
+url("https://static.canva.com/static/fonts/KokuMinchoRegular/font_1_kokumr_1.00_rls.ttf") format("truetype");
+}
+@font-face {
+font-family:"Hanazono Mincho";
+src:url("https://static.canva.com/static/fonts/HanazonoMincho/HanaMinA.woff") format("woff"),
+url("https://static.canva.com/static/fonts/HanazonoMincho/HanaMinA.ttf") format("truetype");
+}
+@font-face {
+font-family:"Checkpoint";
+src:url("https://static.canva.com/static/fonts/Checkpoint/CPFont.woff") format("woff"),
+url("https://static.canva.com/static/fonts/Checkpoint/CPFont.otf") format("opentype");
+}
+@font-face {
+font-family:"Nicomoji Plus";
+src:url("https://static.canva.com/static/fonts/NicomojiPlus/nicomoji-plus_1.11.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NicomojiPlus/nicomoji-plus_1.11.ttf") format("truetype");
+}
+@font-face {
+font-family:"Light Novel Pop";
+src:url("https://static.canva.com/static/fonts/LightNovelPop/LightNovelPop.woff") format("woff"),
+url("https://static.canva.com/static/fonts/LightNovelPop/LightNovelPop.otf") format("opentype");
+}
+@font-face {
+font-family:"Uzura";
+src:url("https://static.canva.com/static/fonts/Uzura/uzura.woff") format("woff"),
+url("https://static.canva.com/static/fonts/Uzura/uzura.ttf") format("truetype");
+}
+@font-face {
+font-family:"Cinecaption";
+src:url("https://static.canva.com/static/fonts/Cinecaption/cinecaption227.woff") format("woff"),
+url("https://static.canva.com/static/fonts/Cinecaption/cinecaption227.TTF") format("truetype");
+}
+@font-face {
+font-family:"Jiyucho";
+src:url("https://static.canva.com/static/fonts/Jiyucho/Jiyucho.woff") format("woff"),
+url("https://static.canva.com/static/fonts/Jiyucho/Jiyucho.otf") format("opentype");
+}
+@font-face {
+font-family:"Tanuki";
+src:url("https://static.canva.com/static/fonts/Tanuki/TanukiMagic.woff") format("woff"),
+url("https://static.canva.com/static/fonts/Tanuki/TanukiMagic.ttf") format("truetype");
+}
+@font-face {
+font-family:"Hanazome";
+src:url("https://static.canva.com/static/fonts/Hanazome/HanazomeFont.woff") format("woff"),
+url("https://static.canva.com/static/fonts/Hanazome/HanazomeFont.ttf") format("truetype");
+}
+@font-face {
+font-family:"Fuiji";
+src:url("https://static.canva.com/static/fonts/Fuiji/HuiFontP.woff") format("woff"),
+url("https://static.canva.com/static/fonts/Fuiji/HuiFontP29.ttf") format("truetype");
+}
+@font-face {
+font-family:"Nagayama Kai";
+src:url("https://static.canva.com/static/fonts/NagayamaKai/nagayama_kai08.woff") format("woff"),
+url("https://static.canva.com/static/fonts/NagayamaKai/nagayama_kai08.otf") format("opentype");
+}
+@font-face {
+font-family:"Kouzan";
+src:url("https://static.canva.com/static/fonts/Kouzan/KouzanGyoushoOTF.woff") format("woff"),
+url("https://static.canva.com/static/fonts/Kouzan/KouzanBrushFontGyousyoOTF.otf") format("opentype");
+}
