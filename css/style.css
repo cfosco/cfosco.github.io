@@ -28,7 +28,7 @@ a.more_link:hover{
 }
 .container {
 	position:relative;
-	margin:10px;
+	/* margin:10px; */
 }
 /* h1, h2{
 	font-family:'Oswald', Arial, sans-serif;
